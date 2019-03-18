@@ -9,7 +9,7 @@ let package = Package(
 	.library(name: "GLib", targets: ["GLib"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/rhx/CGLib.git", .branch("master"))
+        .package(url: "https://github.com/Brett-Best/CGLib.git", .branch("bb-pkg-dev"))
     ],
     targets: [
         .target(name: "GLib", dependencies: []),
